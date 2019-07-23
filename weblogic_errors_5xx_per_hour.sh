@@ -3,7 +3,7 @@
 ##Usage This script calculates errors 5xx per hour and sends data once per day to zabbix server via crontab.Weblogic http logs are extended format and for the script to work correct the need to be rotated once per day only
 
 ####zabbix parameters###
-ZABBIX=pvzabbix01.cosmote.gr
+ZABBIX=*****
 HOST=`hostname`
 KEY=weblogic_errors_5xx_per_hour
 ####zabbix parameters###
